@@ -24,12 +24,11 @@
 						"IsComplexType": false,
 						"IsNullable": true,
 						"Length": 256,
-						"Precision": 0,
-						"Scale": 0,
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
-					}
+					},
+					"DeltaFormatInvalidMessages": []
 				},
 				{
 					"Name": "Column_2",
@@ -39,12 +38,39 @@
 						"IsComplexType": false,
 						"IsNullable": false,
 						"Length": 256,
-						"Precision": 0,
-						"Scale": 0,
 						"Properties": {
 							"HIVE_TYPE_STRING": "string"
 						}
-					}
+					},
+					"DeltaFormatInvalidMessages": []
+				},
+				{
+					"Name": "Column_3",
+					"Description": "",
+					"OriginDataTypeName": {
+						"TypeName": "string",
+						"IsNullable": false,
+						"IsComplexType": false,
+						"Length": 256,
+						"Properties": {
+							"HIVE_TYPE_STRING": "string"
+						}
+					},
+					"DeltaFormatInvalidMessages": []
+				},
+				{
+					"Name": "Column_4",
+					"Description": "",
+					"OriginDataTypeName": {
+						"TypeName": "string",
+						"IsNullable": false,
+						"IsComplexType": false,
+						"Length": 256,
+						"Properties": {
+							"HIVE_TYPE_STRING": "string"
+						}
+					},
+					"DeltaFormatInvalidMessages": []
 				}
 			],
 			"ColumnSetEntityName": "c0aa1391-4928-4750-9247-98399f39b9ff",
@@ -56,8 +82,8 @@
 				"Properties": {
 					"path": "abfss://test001@ytatesyna1125.dfs.core.windows.net/Database1/Table_1",
 					"delimiter": ",",
-					"firstRowAsHeader": "false",
 					"multiLine": "false",
+					"firstRowAsHeader": "false",
 					"serialization.format": "1",
 					"escape": "\\",
 					"quote": "\"",
